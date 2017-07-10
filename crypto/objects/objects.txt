@@ -1332,6 +1332,15 @@ secg-scheme 14 0 : dhSinglePass-cofactorDH-sha224kdf-scheme
 secg-scheme 14 1 : dhSinglePass-cofactorDH-sha256kdf-scheme
 secg-scheme 14 2 : dhSinglePass-cofactorDH-sha384kdf-scheme
 secg-scheme 14 3 : dhSinglePass-cofactorDH-sha512kdf-scheme
+
+# GmSSL SM OID
+member-body 156		: ISO-CN	: ISO CN Member Body
+ISO-CN 10197		: oscca
+oscca 1			: sm-scheme
+
+sm-scheme 104 1		: SMS4-ECB		: sms4-ecb
+sm-scheme 104 2		: SMS4-CBC		: sms4-cbc
+
 # NIDs for use with lookup tables.
                  : dh-std-kdf
                  : dh-cofactor-kdf

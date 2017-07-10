@@ -356,6 +356,8 @@ $crypto.=" crypto/cms/cms.h";
 $crypto.=" crypto/jpake/jpake.h";
 $crypto.=" crypto/modes/modes.h";
 $crypto.=" crypto/srp/srp.h";
+$crypto.=" include/openssl/sms4.h";
+
 
 my $symhacks="crypto/symhacks.h";
 
